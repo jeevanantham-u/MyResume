@@ -37,7 +37,7 @@ h3,a{
     padding: 100px 0 0 0;
 }
 .skill-row{
-    width:50%;
+    width:80%;
     margin:100px auto;
     text-align: left;
     line-height: 2;
@@ -54,9 +54,7 @@ h3,a{
     float: right;
     margin-right: 30px;
 }
-/* .code-skill{
-    clear: left;
-} */
+
 hr{
     border: dotted 8px #EAF6F6;
    width:4%;
@@ -112,4 +110,22 @@ hr{
   .contact-me{
     padding: 80px;
   }
- 
+  @media(max-width:992px) {
+
+    .code-skill{
+        clear: left;
+    }
+    .hi-1{
+         clear: left;
+    }
+    .giphy-embed{
+        margin: 0 35% ;
+    }
+    .hi{
+     clear: right;  
+    }
+    .giphy-embed2{
+        margin: 0 37% ;
+    }
+
+  }
